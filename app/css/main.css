@@ -1,0 +1,167 @@
+html {
+  background: url(../images/friends.jpg) no-repeat center center fixed;
+  background-size: cover; }
+
+body {
+  font-family: Futura, 'Trebuchet MS', Arial, sans-serif; }
+
+.title {
+  font-size: 10rem;
+  padding: 5px;
+  padding-left: 50px;
+  letter-spacing: 2px;
+  color: #fff;
+  font-weight: bold;
+  margin: 0; }
+
+.list {
+  padding: 0px;
+  margin: 8% 0; }
+
+.list-item {
+  border: 1px solid #ccc;
+  margin: 5px;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  padding: 10px 5px;
+  padding-left: 30px;
+  position: relative;
+  opacity: .8;
+  background-color: #F2F4F4; }
+  .list-item:hover {
+    opacity: 1; }
+
+h5 {
+  font-weight: bold; }
+
+.list-info {
+  padding-left: 20px;
+  font-weight: normal;
+  letter-spacing: 1px;
+  color: #029ECD;
+  font-size: 3rem; }
+
+.edit {
+  position: absolute;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  border-radius: 5px;
+  border-bottom: none;
+  width: 100px;
+  height: 40px;
+  bottom: 0;
+  right: 0; }
+
+.edit_text {
+  cursor: pointer;
+  font-size: 2.2rem;
+  color: #000;
+  text-transform: uppercase;
+  display: block;
+  text-align: center;
+  margin-top: 5px;
+  letter-spacing: 1px;
+  opacity: .5; }
+  .edit_text:hover {
+    color: #000;
+    opacity: 1; }
+
+.delete {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 0;
+  right: 0; }
+
+.delete_X {
+  cursor: pointer;
+  font-size: 4rem;
+  color: red;
+  display: block;
+  text-align: center;
+  opacity: .3;
+  -webkit-transition: opacity .4s ease;
+  transition: opacity .4s ease; }
+  .delete_X:hover {
+    color: red;
+    opacity: 1; }
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: black;
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Black w/ opacity */ }
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  /* Could be more or less, depending on screen size */ }
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 5rem;
+  font-weight: bold; }
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer; }
+
+.edit-form {
+  margin: 0 auto;
+  width: 800px;
+  margin-bottom: 20px; }
+
+.formInput {
+  width: 800px;
+  display: block; }
+
+.updateInfo {
+  width: 200px;
+  font-size: 3rem;
+  border: none;
+  background-color: lightblue;
+  text-transform: uppercase;
+  position: relative;
+  left: 250px; }
+
+.formLabel {
+  font-size: 3rem; }
+
+@media (max-width: 800px) {
+  .formInput {
+    width: 100%; }
+  .edit-form {
+    margin: 0 auto;
+    width: 400px;
+    margin-bottom: 20px; }
+  .updateInfo {
+    width: 200px;
+    font-size: 3rem;
+    border: none;
+    background-color: lightblue;
+    text-transform: uppercase;
+    position: relative;
+    left: 220px; } }
